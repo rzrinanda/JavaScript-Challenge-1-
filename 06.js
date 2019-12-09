@@ -1,4 +1,4 @@
-//Play with numbers
+//Censoring Words
 const words = ['dolor', 'elit', 'quis', 'nisi', 'fugiat', 'proident', 'laborum'];
 const paragraph = `Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -17,6 +17,5 @@ function censore(string, filters) {
       return stars;
   });
 }
-
 var censored = censore(paragraph, words);
 console.log(censored);
